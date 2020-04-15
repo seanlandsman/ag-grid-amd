@@ -1,8 +1,9 @@
 requirejs.config({
     baseUrl: 'lib',
     paths: {
-        'ag-grid-community': 'ag-grid-community.amd',
-        'ag-grid-react': 'ag-grid-react.min',
+        // 'agGrid': 'ag-grid-community.amd.min', // for community features
+        'agGrid': 'ag-grid-enterprise.amd.min',   // for enterprise features
+        'ag-grid-react': 'ag-grid-react.amd.min',
         'react': 'https://unpkg.com/react@16/umd/react.development',
         'react-dom': 'https://unpkg.com/react-dom@16/umd/react-dom.development',
         'react-dom/server': 'https://unpkg.com/browse/react-dom@16.13.1/umd/react-dom-server.browser.development',
