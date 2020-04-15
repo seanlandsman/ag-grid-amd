@@ -2,7 +2,7 @@ requirejs.config({
     baseUrl: 'lib',
     paths: {
         'ag-grid-community': 'ag-grid-community.amd',
-        'agGridReact': 'ag-grid-react.min',
+        'ag-grid-react': 'ag-grid-react.min',
         'react': 'https://unpkg.com/react@16/umd/react.development',
         'react-dom': 'https://unpkg.com/react-dom@16/umd/react-dom.development',
         'react-dom/server': 'https://unpkg.com/browse/react-dom@16.13.1/umd/react-dom-server.browser.development',
@@ -10,7 +10,7 @@ requirejs.config({
     }
 });
 
-requirejs(['agGridReact', 'react', 'react-dom'], function (agGridReact, React, ReactDOM) {
+requirejs(['ag-grid-react', 'react', 'react-dom'], function (agGridReact, React, ReactDOM) {
     var columnDefs = [
         {headerName: "Make", field: "make"},
         {headerName: "Model", field: "model"},
